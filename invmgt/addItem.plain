@@ -1,0 +1,80 @@
+#Categories for testing - Joose Lab 2017
+#
+#This specification is designed to test addItem in the invmgt package 
+#This is the first revision of the exercise
+#
+#
+
+# Input item - Item
+Environments:
+  Item configuration:
+     Complete item.
+	 Incomplete item.
+  Supplier configuration:
+     No items.
+	 Has items.
+	 Has two items with matching names.
+
+	
+
+# Input long - barcode
+  Size:
+     Empty.				
+	 Not empty.
+	 
+  Presence of characters:
+     None.
+	 Characters.
+  
+  Value:
+     More than 99 less than 9999.
+	 <99.
+	 >9999.
+			
+
+
+# Input String - itemName
+  Length:
+     Empty.
+	 Not empty.
+
+  Content:
+     None.
+     Special characters.
+	 No special characters.
+
+
+
+# Input String - itemType	 
+  Length:
+     Empty.
+	 Not empty.
+
+
+
+# Input int - qty
+  Size:
+     Empty.
+	 Not empty.
+	 
+  Value:
+    0.
+	<0.
+	>100.
+	More than or equal to 0 less than 100.
+
+  Presence of characters:
+     None.
+	 Characters.
+
+
+
+# Input String - supplier
+  Length:
+     Empty.
+	 Not empty.
+	 
+  Content:
+     None.
+	 Special characters.
+	 No special characters.

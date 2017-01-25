@@ -1,0 +1,132 @@
+
+Test Case 1  		<error>
+   Item configuration :  Incomplete item
+
+
+Test Case 2  		<error>  (follows [if])
+   Supplier configuration :  Has two items with matching names
+
+
+Test Case 3  		<error>
+   Size :  Empty
+
+
+Test Case 4  		<error>  (follows [if])
+   Presence of characters :  Characters
+
+
+Test Case 5  		<error>  (follows [if])
+   Value :  <99
+
+
+Test Case 6  		<error>  (follows [if])
+   Value :  >9999
+
+
+Test Case 7  		<error>
+   Length :  Empty
+
+
+Test Case 8  		<error>  (follows [if])
+   Content :  None
+
+
+Test Case 9  		<error>  (follows [if])
+   Content :  Special characters
+
+
+Test Case 10 		<error>
+   Length :  Empty
+
+
+Test Case 11 		<error>
+   Size :  Empty
+
+
+Test Case 12 		<error>  (follows [if])
+   Presence of characters :  Characters
+
+
+Test Case 13 		<error>  (follows [if])
+   Value :  <0
+
+
+Test Case 14 		<error>  (follows [if])
+   Value :  >100
+
+
+Test Case 15 		<error>
+   Length :  Empty
+
+
+Test Case 16 		<error>  (follows [if])
+   Content :  None
+
+
+Test Case 17 		<error>  (follows [if])
+   Content :  Special characters
+
+
+Test Case 18 		(Key = 1.1.2.1.1.2.1.2.0.1.1.2.1.)
+   Item configuration     :  Complete item
+   Supplier configuration :  Has items
+   Size                   :  Not empty
+   Presence of characters :  None
+   Value                  :  More than 99 less than 9999
+   Length                 :  Not empty
+   Content                :  No special characters
+   Length                 :  Not empty
+   Size                   :  <n/a>
+   Presence of characters :  None
+   Value                  :  More than or equal to 0 less than 100
+   Length                 :  Not empty
+   Content                :  No special characters
+
+
+Test Case 19 		(Key = 1.1.2.1.1.2.1.2.0.1.2.2.1.)
+   Item configuration     :  Complete item
+   Supplier configuration :  Has items
+   Size                   :  Not empty
+   Presence of characters :  None
+   Value                  :  More than 99 less than 9999
+   Length                 :  Not empty
+   Content                :  No special characters
+   Length                 :  Not empty
+   Size                   :  <n/a>
+   Presence of characters :  None
+   Value                  :  0
+   Length                 :  Not empty
+   Content                :  No special characters
+
+
+Test Case 20 		(Key = 1.2.2.1.1.2.1.2.0.1.1.2.1.)
+   Item configuration     :  Complete item
+   Supplier configuration :  No items
+   Size                   :  Not empty
+   Presence of characters :  None
+   Value                  :  More than 99 less than 9999
+   Length                 :  Not empty
+   Content                :  No special characters
+   Length                 :  Not empty
+   Size                   :  <n/a>
+   Presence of characters :  None
+   Value                  :  More than or equal to 0 less than 100
+   Length                 :  Not empty
+   Content                :  No special characters
+
+
+Test Case 21 		(Key = 1.2.2.1.1.2.1.2.0.1.2.2.1.)
+   Item configuration     :  Complete item
+   Supplier configuration :  No items
+   Size                   :  Not empty
+   Presence of characters :  None
+   Value                  :  More than 99 less than 9999
+   Length                 :  Not empty
+   Content                :  No special characters
+   Length                 :  Not empty
+   Size                   :  <n/a>
+   Presence of characters :  None
+   Value                  :  0
+   Length                 :  Not empty
+   Content                :  No special characters
+
